@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>自己紹介</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    background: #f4f1ee;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+  }
+  .card {
+    background: #fff;
+    max-width: 480px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #d4a373, #ccd5ae);
+    margin: 32px auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #fff;
+  }
+  .content {
+    padding: 0 32px 32px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0 0 4px;
+    font-size: 24px;
+  }
+  .role {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  p.bio {
+    line-height: 1.8;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .info-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+    text-align: left;
+    border-top: 1px solid #eee;
+  }
+  .info-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  .info-list .label {
+    color: #999;
+  }
+  .links {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+  .links a {
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 999px;
+    background: #d4a373;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">👤</div>
+    <div class="content">
+      <h1>山田 太郎</h1>
+      <p class="role">Web Developer</p>
+      <p class="bio">
+        はじめまして、山田太郎です。<br>
+        普段はWebサイトの制作やアプリ開発を行っています。
+        新しい技術を学ぶことが好きで、日々勉強中です。
+        よろしくお願いします。
+      </p>
+      <ul class="info-list">
+        <li><span class="label">出身</span><span>東京都</span></li>
+        <li><span class="label">趣味</span><span>写真撮影・カフェ巡り</span></li>
+        <li><span class="label">好きな言葉</span><span>継続は力なり</span></li>
+      </ul>
+      <div class="links">
+        <a href="#">Twitter</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
